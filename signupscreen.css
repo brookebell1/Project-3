@@ -1,0 +1,108 @@
+html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;*font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none}
+
+/* Prevent text size adjustments on screens */
+
+html {
+webkit-text-size-adjust: 100%;
+moz-text-size-adjust: 100%;
+ms-text-size-adjust: 100%;
+text-size-adjust: 100%;
+font-size: 20px;
+line-height: 24px;
+background-color:yellow;
+text-color:black;
+}
+
+/* Displaying as blocks */
+article, header, footer, small {
+  display: block;
+  font-size: inherit;
+}
+
+/* Design, Modular and Alignment */
+
+
+html {
+  font-family: "Futura";
+  font-size: 1em; /* 18px */
+  line-height: 1.5em; /* 27px */
+  padding: .444em;
+  background-color: #CCC;
+}
+
+content {
+  margin-bottom: 1.333em;}
+
+header{
+  /* Modular Scale --18px @ 1:1.5	--*/
+  font-size-adjust:1.5em;}
+
+h1,h2{ 
+  margin-top: 2.25em;
+  margin-bottom:2.25em;
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+  header {
+  color: black; /* black text*/
+  
+}
+  
+h1 {
+  font-family: "Futura";
+  font-size: 1.777em; /* 33.761px */
+  line-height: 1.333em; /* 45.003px */
+  padding-bottom: .667em; /* 1.333em / 2 (half) = .6665 */
+  font-color: black;
+  text-align: inherit;
+ 
+}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+  header {
+  text-decoration-color:black; 
+  text-alight:"inherit";
+}
+
+   body {
+  word-wrap: break-word;}
+}
+
+  /* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+  header {
+  color: black; /* black text */
+}
+
+  /* Desktops */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+    header {
+  color: black; /* black text */}
+  body {
+  word-wrap: break-word;}
+}
+
+  
+h1 {
+  font-family: "Futura";
+  font-size: 1.777em; /* 33.761px */
+  line-height: 1.333em; /* 45.003px */
+  padding-bottom: .667em; /* 1.333em / 2 (half) = .6665 */
+  font-color: #DCDCDC;
+  text-align: center;
+  text-decoration: none;
+}
+  body {
+  word-wrap: break-word;}
+}
