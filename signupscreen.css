@@ -36,11 +36,19 @@ content {
 header{
   /* Modular Scale --18px @ 1:1.5	--*/
   font-size-adjust:1.5em;}
+  }
 
-h1,h2{ 
-  margin-top: 2.25em;
-  margin-bottom:2.25em;
+h1,h2 {
+  font-family: "Futura";
+  font-size: 1.777em; /* 33.761px */
+  line-height: 1.333em; /* 45.003px */
+  padding-top: .667em;
+  padding-bottom: .667em; /* 1.333em / 2 (half) = .6665 */
+  font-color: black;
+  text-align: inherit;
+  text-weight: bold;
 }
+
 
 /* Smartphones (landscape) ----------- */
 @media only screen 
@@ -51,7 +59,7 @@ and (min-width : 321px) {
   
 }
   
-h1 {
+h1,h2 {
   font-family: "Futura";
   font-size: 1.777em; /* 33.761px */
   line-height: 1.333em; /* 45.003px */
@@ -64,11 +72,12 @@ h1 {
 
 /* Smartphones (portrait) ----------- */
 @media only screen 
-and (max-width : 320px) {
+and (min-width : 20em) { /*320px */
 /* Styles */
   header {
   text-decoration-color:black; 
   text-alight:"inherit";
+  font-size:1.0em;
 }
 
    body {
@@ -77,32 +86,28 @@ and (max-width : 320px) {
 
   /* Smartphones (landscape) ----------- */
 @media only screen 
-and (min-width : 321px) {
+and (min-width: 20em; ) { /*321 px */
 /* Styles */
   header {
   color: black; /* black text */
+  text-align: center;
+  font-family: "Futura", "sans-serif";
 }
 
   /* Desktops */
 @media only screen 
-and (min-width : 1224px) {
+and (min-width : 76.5em) { /*1224px */
 /* Styles */
     header {
-  color: black; /* black text */}
-  body {
-  word-wrap: break-word;}
-}
-
-  
-h1 {
-  font-family: "Futura";
+  color: black; /* black text */
+   font-family: "Futura", "sans-serif";
   font-size: 1.777em; /* 33.761px */
   line-height: 1.333em; /* 45.003px */
   padding-bottom: .667em; /* 1.333em / 2 (half) = .6665 */
   font-color: #DCDCDC;
-  text-align: center;
-  text-decoration: none;
-}
+  text-align: center;}
+      
   body {
   word-wrap: break-word;}
 }
+
