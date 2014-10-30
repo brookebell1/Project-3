@@ -7,10 +7,13 @@ webkit-text-size-adjust: 100%;
 moz-text-size-adjust: 100%;
 ms-text-size-adjust: 100%;
 text-size-adjust: 100%;
-font-size: 20px;
-line-height: 24px;
 background-color:yellow;
 text-color:black;
+font-family: "Futura";
+font-size: 1em; /* 18px */
+line-height: 1.5em; /* 27px */
+padding: .444em;
+align-content: center;
 }
 
 /* Displaying as blocks */
@@ -21,24 +24,12 @@ article, header, footer, small {
 
 /* Design, Modular and Alignment */
 
-
-html {
-  font-family: "Futura";
-  font-size: 1em; /* 18px */
-  line-height: 1.5em; /* 27px */
-  padding: .444em;
-  background-color: #CCC;
-}
-
-content {
-  margin-bottom: 1.333em;}
-
 header{
   /* Modular Scale --18px @ 1:1.5	--*/
-  font-size-adjust:1.5em;}
+  font-size-adjust:1.5em;
+  text-shadow: 5px 5px 5px #FF0000; }
   }
-
-h1,h2 {
+h2 {
   font-family: "Futura";
   font-size: 1.777em; /* 33.761px */
   line-height: 1.333em; /* 45.003px */
