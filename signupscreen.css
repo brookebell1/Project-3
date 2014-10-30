@@ -7,9 +7,9 @@ webkit-text-size-adjust: 100%;
 moz-text-size-adjust: 100%;
 ms-text-size-adjust: 100%;
 text-size-adjust: 100%;
-background-color:yellow;
+background-color:limegreen;
 text-color:black;
-font-family: "Futura";
+font-family: Sigmar+One, "Futura";
 font-size: 1em; /* 18px */
 line-height: 1.5em; /* 27px */
 padding: .444em;
@@ -29,7 +29,7 @@ header{
   font-size-adjust:1.5em;
   text-shadow: 5px 5px 5px #FF0000; }
   }
-h2 {
+h1 {
   font-family: "Futura";
   font-size: 1.777em; /* 33.761px */
   line-height: 1.333em; /* 45.003px */
