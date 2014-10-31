@@ -1,4 +1,4 @@
-html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;*font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none}
+html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;*font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none}
 
 /* Prevent text size adjustments on screens */
 
@@ -7,37 +7,51 @@ webkit-text-size-adjust: 100%;
 moz-text-size-adjust: 100%;
 ms-text-size-adjust: 100%;
 text-size-adjust: 100%;
-background-color:yellow;
-text-color:black;
-font-family:Montserrat,"Futura";
-font-size: 1em; /* 18px */
-line-height: 1.5em; /* 27px */
-padding: .444em;
-align-content: center;
-}
+text-color:white;
+font-family:Monterserrat,"Futura";
+background:url('4227060563_e24d67162c_o.jpg') no-repeat fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 
+}
 /* Displaying as blocks */
 article, header, footer, small {
   display: block;
   font-size: inherit;
-}
-
-/* Design, Modular and Alignment */
-
-header{
+  /* Design, Modular and Alignment */
   /* Modular Scale --18px @ 1:1.5	--*/
   font-size-adjust:1.5em;
-  text-shadow: 5px 5px 5px #FF0000; }
-  }
+  text-shadow: 5px 5px 5px #FF0000;
+  font-color:white;
+  
+}
+
 h1 {
   font-family:Montserrat, "Futura";
   font-size: 1.777em; /* 33.761px */
   line-height: 1.333em; /* 45.003px */
-  padding-top: .667em;
-  padding-bottom: .667em; /* 1.333em / 2 (half) = .6665 */
-  font-color: black;
+  padding-top: 1.333em;
+  padding-bottom: 1.333em;
+  font-color: white;
   text-align: inherit;
   text-weight: bold;
+  text-align: center;
+}
+body  {
+    margin: 0; 
+    padding: 0;
+    text-align:center;
+    font-family: Montserrat, "Futura";
+    text-color:white;
+}
+.login{ 
+    margin: 0;
+    padding-top: 1.333em;
+    padding-bottom: 1.333em;
+    text-align: center;
+    text-color:white;
 }
 
 
@@ -50,7 +64,7 @@ and (min-width : 321px) {
   
 }
   
-h1,h2 {
+h1{
   font-family: "Futura";
   font-size: 1.777em; /* 33.761px */
   line-height: 1.333em; /* 45.003px */
@@ -84,21 +98,5 @@ and (min-width: 20em; ) { /*321 px */
   text-align: center;
   font-family: "Futura", "sans-serif";
 }
-
-  /* Desktops */
-@media only screen 
-and (min-width : 76.5em) { /*1224px */
-/* Styles */
-    header {
-  color: black; /* black text */
-   font-family: "Futura", "sans-serif";
-  font-size: 1.777em; /* 33.761px */
-  line-height: 1.333em; /* 45.003px */
-  padding-bottom: .667em; /* 1.333em / 2 (half) = .6665 */
-  font-color: #DCDCDC;
-  text-align: center;}
-      
-  body {
-  word-wrap: break-word;}
 }
 
