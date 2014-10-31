@@ -7,14 +7,14 @@ webkit-text-size-adjust: 100%;
 moz-text-size-adjust: 100%;
 ms-text-size-adjust: 100%;
 text-size-adjust: 100%;
-text-color:white;
+color:white;
 font-family:Monterserrat,"Futura";
 background:url('4227060563_e24d67162c_o.jpg') no-repeat fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
-background-size: cover;
-
+background-size:cover;
+/*image from Flickr Creative Commons  */
 }
 /* Displaying as blocks */
 article, header, footer, small {
@@ -24,7 +24,7 @@ article, header, footer, small {
   /* Modular Scale --18px @ 1:1.5	--*/
   font-size-adjust:1.5em;
   text-shadow: 5px 5px 5px #FF0000;
-  font-color:white;
+  color:white;
   
 }
 
@@ -34,7 +34,7 @@ h1 {
   line-height: 1.333em; /* 45.003px */
   padding-top: 1.333em;
   padding-bottom: 1.333em;
-  font-color: white;
+  color: white;
   text-align: inherit;
   text-weight: bold;
   text-align: center;
@@ -44,14 +44,14 @@ body  {
     padding: 0;
     text-align:center;
     font-family: Montserrat, "Futura";
-    text-color:white;
+    color: white;
 }
 .login{ 
     margin: 0;
     padding-top: 1.333em;
     padding-bottom: 1.333em;
     text-align: center;
-    text-color:white;
+    color: white;
 }
 
 
@@ -60,32 +60,43 @@ body  {
 and (min-width : 321px) {
 /* Styles */
   header {
-  color: black; /* black text*/
-  
-}
-  
-h1{
-  font-family: "Futura";
-  font-size: 1.777em; /* 33.761px */
-  line-height: 1.333em; /* 45.003px */
-  padding-bottom: .667em; /* 1.333em / 2 (half) = .6665 */
-  font-color: black;
-  text-align: inherit;
- 
+  color: white; /* white text*/
+  text-shadow: 5px 5px 5px #FF0000; 
+  font-family: Montserrat, "Futura";
+  font-size: 1.7em; 
+  line-height: 1.333em; 
+  padding-bottom: .444em; 
+  color: white;
+  text-align: center  
 }
 }
 
+body {
+  font-family: Montserrat, "Futura";
+  text-align:center;
+  color:white;
+  background-size: cover;
+  word-wrap: break-word;
+}
+  
 /* Smartphones (portrait) ----------- */
 @media only screen 
 and (min-width : 20em) { /*320px */
 /* Styles */
   header {
-  text-decoration-color:black; 
-  text-alight:"inherit";
-  font-size:1.0em;
+  font-family: Montserrat, "Futura";
+  font-size: 1.em; /* 33.761px */
+  line-height: 1.333em; /* 45.003px */
+  padding-bottom: .667em; /* 1.333em / 2 (half) = .6665 */
+  color: white;
+  text-align: center;
 }
 
-   body {
+body {
+  font-family: Montserrat, "Futura";
+  text-align:center;
+  color:white;
+  background-size: cover;   
   word-wrap: break-word;}
 }
 
@@ -94,9 +105,21 @@ and (min-width : 20em) { /*320px */
 and (min-width: 20em; ) { /*321 px */
 /* Styles */
   header {
-  color: black; /* black text */
-  text-align: center;
-  font-family: "Futura", "sans-serif";
+  font-family: Montserrat, "Futura";
+  font-size: 1.em; /* 33.761px */
+  line-height: 1.333em; /* 45.003px */
+  padding-bottom: .667em; /* 1.333em / 2 (half) = .6665 */
+  color: white;
+  text-align: center;      
+}  
 }
-}
+body{
+  body {
+  font-family: Montserrat, "Futura";
+  text-align:center;
+  color:white;
+  background-size: cover;   
+  word-wrap: break-word;}
+  }
+  
 
